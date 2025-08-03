@@ -81,8 +81,3 @@ npm run dec
 
 
 ---
-
-## 📜 License
-This project is licensed under the **Satyam Gupta**.
-
----
