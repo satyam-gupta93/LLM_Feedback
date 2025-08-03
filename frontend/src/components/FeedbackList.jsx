@@ -3,7 +3,7 @@ import axios from "axios";
 export default function FeedbackList({ feedbacks, setFeedbacks }) {
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/feedback/${id}`);
+      await axios.delete(`https://llm-feedback-backend.onrender.com/feedback/${id}`);
       setFeedbacks(feedbacks.filter((fb) => fb.id !== id));
     } catch {
       alert("Error deleting feedback");

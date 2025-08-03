@@ -8,7 +8,7 @@ export default function FeedbackForm({ onFeedbackAdded }) {
   const handleSubmit = async () => {
     if (!name || !message) return alert("Enter all fields");
     try {
-      const res = await axios.post("http://localhost:5000/feedback", { name, message });
+      const res = await axios.post("https://llm-feedback-backend.onrender.com/feedback", { name, message });
       onFeedbackAdded(res.data);
       setName("");
       setMessage("");

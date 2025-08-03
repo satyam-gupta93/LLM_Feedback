@@ -12,7 +12,7 @@ function App() {
   const [feedbacks, setFeedbacks] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/feedback").then((res) => setFeedbacks(res.data));
+    axios.get("https://llm-feedback-backend.onrender.com/feedback").then((res) => setFeedbacks(res.data));
   }, []);
 
   const addFeedback = (newFeedback) => {

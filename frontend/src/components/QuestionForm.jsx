@@ -38,7 +38,7 @@ export default function QuestionForm({ setAnswer }) {
     if (!question.trim()) return;
 
     try {
-      const res = await axios.post("http://localhost:5000/ask", { question });
+      const res = await axios.post("https://llm-feedback-backend.onrender.com/ask", { question });
       setAnswer(res.data.answer);
     } catch {
       setAnswer("Error fetching answer");
