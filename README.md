@@ -10,7 +10,7 @@ A simple **web app** where users can:
 ## 📸 Screenshots
 
 ### 🔹 Home Page (AI Assistant + Feedback Section)
-![App Screenshot](./screenshot.png) <!-- Replace with actual screenshot file -->
+![App Screenshot](./frontend/public/home.png) <!-- Replace with actual screenshot file -->
 
 ---
 
