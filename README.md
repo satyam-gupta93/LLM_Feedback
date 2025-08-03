@@ -75,7 +75,7 @@ npm start
 2️⃣ Start **frontend** React app:  
 ```bash
 cd frontend
-npm start
+npm run dec
 ```
 
 
