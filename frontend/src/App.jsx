@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Header from "./components/header";
+import Header from "./components/Header";
 import QuestionForm from "./components/QuestionForm";
 import AnswerBox from "./components/AnswerBox";
 import FeedbackForm from "./components/FeedbackForm";
