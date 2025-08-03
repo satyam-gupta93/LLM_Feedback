@@ -31,29 +31,5 @@ A simple **web app** where users can:
 
 ---
 
-## 📂 Folder Structure
-project/
-├── backend/ # Node.js + Express API
-│ ├── index.js # Backend entry file
-│ ├── package.json
-│ └── .env # Contains OpenAI API key
-│
-├── frontend/ # React frontend
-│ ├── public/
-│ ├── src/
-│ │ ├── components/ # Reusable components
-│ │ │ ├── Header.js
-│ │ │ ├── QuestionForm.js
-│ │ │ ├── AnswerBox.js
-│ │ │ ├── FeedbackForm.js
-│ │ │ └── FeedbackList.js
-│ │ ├── App.js
-│ │ ├── App.css
-│ │ └── index.js
-│ └── package.json
-│
-└── README.md
 
-Copy
-Edit
 
